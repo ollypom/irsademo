@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: s3time
+  namespace: default
+  annotations:
+    eks.amazonaws.com/role-arn: arn:aws:iam::<accountid>:role/s3timearn
